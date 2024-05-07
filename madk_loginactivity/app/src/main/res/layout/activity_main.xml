@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Login Page"
+        android:textSize="15pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="226dp"
+        android:labelFor="@+id/editTextText"
+        android:text="Name :"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="9pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="321dp"
+        android:text="Phone No :"
+        android:textSize="9pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text=""
+        android:hint="Enter Number"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        tools:ignore="TouchTargetSizeCheck"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/textmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="9pt"
+        android:text="Ch. Ajay\n22B91A6104"
+        android:textColor="@color/black"
+        android:layout_marginTop="810dp"/>
+
+</RelativeLayout>
